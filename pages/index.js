@@ -1,7 +1,11 @@
-import React from "react";
+import Header from '../components/Header'
+import SwapInterface from '../components/SwapInterface'
 
-const index = () => {
-  return <div>index</div>;
-};
-
-export default index;
+export default function Home() {
+  return (
+    <main>
+      <Header />
+      <SwapInterface />
+    </main>
+  )
+}
